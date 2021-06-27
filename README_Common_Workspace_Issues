@@ -1,0 +1,11 @@
+IPL Dashboard common issues:
+
+Problem - Lombok getters/setters related issues in Problems tab in VSCode
+Solution - click on each problem, VSCode will resolve it automatically
+
+Problem - Error : could not find or load main class/ClassNotFoundException
+Solution - F1 -> Clean the java language server workspace, and import Java project when prompted
+
+
+How To - start UI app
+Solution - in VSCode Terminal, go to ipl-dashboard > src > frontend and run npm start 
