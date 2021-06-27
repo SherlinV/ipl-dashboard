@@ -9,3 +9,10 @@ Solution - F1 -> Clean the java language server workspace, and import Java proje
 
 How To - start UI app
 Solution - in VSCode Terminal, go to ipl-dashboard > src > frontend and run npm start 
+
+Problem - git push failed due to Permission Denied (publickey); access issues, no remote repo existing
+Solution - 
+Follow this GitHub doc:
+https://docs.github.com/en/github/authenticating-to-github/troubleshooting-ssh/error-permission-denied-publickey
+To create public/private SSH keys, follow:
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
